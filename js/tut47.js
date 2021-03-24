@@ -5,7 +5,7 @@ let regex = /harry/;
 regex = /^harr/; //^-carret symbol-means expression will match if string starts with
 regex = /ry$/; // $ at the end of the string means "string ends with"
 regex = /h.rry/; //'.'-->dot means matches any one character
-regex = /h*rry/; //'.'-->dot means matches any 0 or more characters
+regex = /h*rry/; //'*'-->dot means matches any 0 or more characters
 regex = /ha?rryi?t/; //? after character means character is optional(it can be present or absent but no other character is allowed in that place)
 regex = /h\*rry/i;
 
